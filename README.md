@@ -5,8 +5,8 @@ Prompts information from user about digital purchases, then stores such items in
 
 * Language: Japanese
 * Update plans: provide deleting functionality 
-* author: mchang9607 (bernkastel79)
-* Special thanks:Kent Chen
+* author: mchang9607(bernkastel79)
+* Special thanks: Kent Chen
 
 #### _Setup instructions:_
 1. Install MySQL database, and make sure that the local port is 3306 (which should be by default.)
