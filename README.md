@@ -16,4 +16,5 @@ Prompts information from user about digital purchases, then stores such items in
 The program prompts a username and password of the database everytime at start, which by default should be
  * Username: Jguest
  * Password: java
+
 You can customize such settings when setting up the database, i.e. replace the username and password with what you want when entering the commands from MySQL_setup.txt.
