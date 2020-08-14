@@ -1,0 +1,12 @@
+mysql -u root -p
+mysql> CREATE DATABASE FileLog;
+mysql> CREATE USER 'Jguest'@'localhost';
+mysql> GRANT ALL PRIVILEGES ON FileLog.* TO 'Jguest'@'localhost' IDENTIFIED BY 'java';
+mysql> USE FileLog;
+mysql> CREATE TABLE music ( id VARCHAR(50) PRIMARY KEY, title VARCHAR(1000) NOT NULL, author varchar(500) NOT NULL );
+mysql> CREATE TABLE book LIKE music;
+mysql> CREATE TABLE movie LIKE music;
+mysql> CREATE TABLE other LIKE music;
+mysql> CREATE TABLE game ( id VARCHAR(50) PRIMARY KEY, title VARCHAR(1000) NOT NULL, author VARCHAR(500) NOT NULL, extra VARCHAR(500) );
+mysql> CREATE TABLE game_patch ( id VARCHAR(50) PRIMARY KEY, title VARCHAR(1000) NOT NULL, author VARCHAR(500) NOT NULL, extra VARCHAR(500), parent_file VARCHAR(50) );
+
