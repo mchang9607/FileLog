@@ -3,11 +3,6 @@ Prompts information from user about digital purchases, then stores such items in
 #### _Attention_: This program uses MySQL and Java database drivers for MySQL (jdbc). Such drivers are packed in the jar file, but also officially downloadable [here](https://dev.mysql.com/downloads/connector/j/).
 #### _Attention_: This program connects to databases and uses tables with specific names. For details, see MySQL_setup.txt. To change database names and fields, Editting and recompilation of FileLog.java is required.
 
-* Language: Japanese
-* Update plans: provide deleting functionality 
-* author: mchang9607(bernkastel79)
-* Special thanks: Kent Chen
-
 #### _Setup instructions:_
 1. Install MySQL database, and make sure that the local port is 3306 (which should be by default.)
 1. Run the commands in order given in MySQL_setup.txt to setup the specific database.
@@ -18,3 +13,10 @@ The program prompts a username and password of the database everytime at start, 
  * Password: java
  
 You can customize such settings when setting up the database, i.e. replace the username and password with what you want when entering the commands from MySQL_setup.txt.
+
+_Program Information:_
+* Language: Japanese
+* Update plans: provide deleting functionality 
+* author: mchang9607(bernkastel79)
+* Special thanks: Kent Chen
+
