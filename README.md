@@ -1,6 +1,6 @@
 Program designed for personal use.
 Prompts information from user about digital purchases, then stores such items into the corresponding table.
-#### _Attention_: Uses MySQL and Java database drivers for MySQL (jdbc). Packed in jar file, but also officially downloadable [here](https://dev.mysql.com/downloads/connector/j/).
+#### _Attention_: This program uses MySQL and Java database drivers for MySQL (jdbc). Such drivers are packed in the jar file, but also officially downloadable [here](https://dev.mysql.com/downloads/connector/j/).
 #### _Attention_: This program connects to databases and uses tables with specific names. For details, see MySQL_setup.txt. To change database names and fields, Editting and recompilation of FileLog.java is required.
 
 * Language: Japanese
