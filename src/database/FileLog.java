@@ -22,7 +22,7 @@ public class FileLog {
 	// jdbc fields
 	static Connection connection;
 	static PreparedStatement pst;
-	static final String DB_URL = "jdbc:mysql://localhost:3306/FileGuest";
+	static final String DB_URL = "jdbc:mysql://localhost:3306/FileLog";
 	// static final String username = "Jguest";
 	// static final String password = "java";
 	static String username;
